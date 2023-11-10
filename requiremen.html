@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quản lý hàng hóa</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+<body>
+<div class="app">
+
+    <header class="header">
+        <nav class="header__navbar">
+            <ul class="header__navbar-list">
+                    <h2 class="header__navbar-item">Cửa Hàng Điện Tử</h2>
+            </ul>
+            
+            <ul class="header__navbar-list">
+                <li class="header__navbar-item header__navbar-item--has-menu ">
+                    Menu
+                    <div class="header__menu">
+                        <ul class="header__menu-list">
+                            <li class="header__menu-item">
+                                <a href="requiremen.html" class="header__menu-link">Requirement</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="design.html" class="header__menu-link">Design</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="implement.html" class="header__menu-link">Implement</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+               
+
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-item-link">Đăng ký</a>
+                </li>
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-item-link">Đăng nhập</a>
+                </li>
+                <li class="header__navbar-item  header__navbar-item-btn">
+                    <a href="index.html" class="header__navbar-item-link header__navbar-item-link--btn">
+                        Home
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="backgroud">
+        <br>
+    <h1 id="title">Quản lý hàng hóa</h1>
+
+    <form id="productForm">
+        <label for="name" id="lable" >Tên hàng hóa:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="price" id="lable">Giá:</label>
+        <input type="number" id="price" name="price"><br><br>
+        <input type="submit" value="Thêm" id="add">
+    </form>
+
+    <h2>Danh sách hàng hóa</h2>
+    <table id="productTable">
+        <tr>
+            <th>Tên hàng hóa</th>
+            <th>Giá</th>
+            <th>Thao tác</th>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+    </div>
+</div>
+</body>
+</html>

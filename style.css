@@ -1,0 +1,151 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #209de3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    min-width: 90px;
+}
+
+#productForm{
+    max-width: 500px;
+    margin: 35px auto 0 auto;
+}
+#name{
+    min-width: 300px;
+}
+#price{
+    min-width: 365px;
+}
+ #title{
+    max-width: 300px;
+    margin: 10px auto 0 auto;
+ }
+
+ #add{
+    margin-left: 200px ;
+ }
+
+ #backgroud{
+    width: 100%;
+    height: 530px;
+    background-image: url(https://softbuzz.net/wp-content/uploads/2019/10/background-don-gian-dep-softbuzz-24-1024x681.png);
+ }
+
+.header{
+    height: 50px;
+    background-color: #209de3;
+}
+
+.header__navbar{
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__navbar-list{
+    list-style: none;
+    align-items: center;
+}
+
+.header__navbar-item{
+    display: inline-block;
+    margin: 5px;
+}
+
+.header__navbar-item-link{
+    text-decoration: none;
+}
+
+.header__navbar-item:hover,
+.header__navbar-item-link:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255,0.7);
+}
+
+.header__navbar-item-btn{
+    border-radius: 20px;
+    width: 60px;
+    height: 20px;
+    background-color: black;
+
+}
+
+.header__navbar-item-link--btn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #fff ;
+}
+
+/* Menu */
+
+@keyframes headerMenuGroth{
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.header__menu{
+    top: 45px;
+    right: 260px;
+    position: absolute;
+    border: 1px solid #D3D3D3;
+    background-color: #fff;
+    cursor: default;
+    animation: headerMenuGroth ease-in 0.2s;
+    transform-origin: 80% top;
+    display: none;
+}
+.header__navbar-item--has-menu:hover .header__menu{
+    display: block;
+}
+
+.header__menu-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.header__menu-item{
+    height: 30px;
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.header__menu-item:hover{
+    background-color: #f1f1f1;
+}
+
+.header__menu-link{
+    text-decoration: none;
+}
+
+
+
+
+
+
+ 
+
+

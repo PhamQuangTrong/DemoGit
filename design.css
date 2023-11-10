@@ -1,0 +1,29 @@
+.picture{
+    width: 500px;
+    height: 300px;
+}
+
+.download__btn{
+    background-color: #209de3;
+    height: 30px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+}
+
+.download__btn-picture{
+    text-decoration: none;
+    color: #fff;
+}
+
+.main{
+    justify-content: space-around;
+    display: flex;
+}
+
+.frameBtn{
+    justify-content: center;
+    display: flex;
+}
